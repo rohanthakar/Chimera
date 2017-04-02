@@ -8,16 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		5CAD4344790C1A0C72315DED /* Pods_Chimera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE9D7B119E26B26A2AE1AA8 /* Pods_Chimera.framework */; };
+		D31850BC1E90F21E00118867 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31850BB1E90F21E00118867 /* CircleView.swift */; };
+		D31CFC041E90BDAE00754738 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC031E90BDAE00754738 /* Constants.swift */; };
+		D31CFC061E90C19C00754738 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC051E90C19C00754738 /* HeaderView.swift */; };
+		D31CFC081E90C2A000754738 /* ImageFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC071E90C2A000754738 /* ImageFeedVC.swift */; };
+		D31CFC0A1E90CFBF00754738 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC091E90CFBF00754738 /* CreatePostView.swift */; };
+		D31CFC0C1E90D28800754738 /* SettingBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC0B1E90D28800754738 /* SettingBtn.swift */; };
+		D31CFC0E1E90D54B00754738 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC0D1E90D54B00754738 /* SettingsVC.swift */; };
 		D389C6961E8BA0040013FCED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D389C6951E8BA0040013FCED /* AppDelegate.swift */; };
 		D389C6981E8BA0040013FCED /* SigInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D389C6971E8BA0040013FCED /* SigInVC.swift */; };
 		D389C69B1E8BA0040013FCED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D389C6991E8BA0040013FCED /* Main.storyboard */; };
 		D389C69D1E8BA0040013FCED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D389C69C1E8BA0040013FCED /* Assets.xcassets */; };
 		D389C6A01E8BA0040013FCED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D389C69E1E8BA0040013FCED /* LaunchScreen.storyboard */; };
 		D389C6A81E8BA1800013FCED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D389C6A71E8BA1800013FCED /* GoogleService-Info.plist */; };
+		D3DAA27D1E90E3230059D6CE /* SharePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DAA27C1E90E3230059D6CE /* SharePostVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0648E9E1AD63D927F7C958AA /* Pods-Chimera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chimera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chimera/Pods-Chimera.release.xcconfig"; sourceTree = "<group>"; };
+		D31850BB1E90F21E00118867 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		D31CFC031E90BDAE00754738 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D31CFC051E90C19C00754738 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D31CFC071E90C2A000754738 /* ImageFeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFeedVC.swift; sourceTree = "<group>"; };
+		D31CFC091E90CFBF00754738 /* CreatePostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		D31CFC0B1E90D28800754738 /* SettingBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingBtn.swift; sourceTree = "<group>"; };
+		D31CFC0D1E90D54B00754738 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		D389C6921E8BA0040013FCED /* Chimera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chimera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D389C6951E8BA0040013FCED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D389C6971E8BA0040013FCED /* SigInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigInVC.swift; sourceTree = "<group>"; };
@@ -27,6 +42,7 @@
 		D389C6A11E8BA0040013FCED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D389C6A71E8BA1800013FCED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D38E331C1E9004AF004E7B4F /* Chimera.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Chimera.entitlements; sourceTree = "<group>"; };
+		D3DAA27C1E90E3230059D6CE /* SharePostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharePostVC.swift; sourceTree = "<group>"; };
 		EA59515E3FD688F8AB81DED5 /* Pods-Chimera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chimera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chimera/Pods-Chimera.debug.xcconfig"; sourceTree = "<group>"; };
 		FCE9D7B119E26B26A2AE1AA8 /* Pods_Chimera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chimera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,6 +120,10 @@
 			children = (
 				D389C6991E8BA0040013FCED /* Main.storyboard */,
 				D389C69E1E8BA0040013FCED /* LaunchScreen.storyboard */,
+				D31CFC051E90C19C00754738 /* HeaderView.swift */,
+				D31CFC091E90CFBF00754738 /* CreatePostView.swift */,
+				D31CFC0B1E90D28800754738 /* SettingBtn.swift */,
+				D31850BB1E90F21E00118867 /* CircleView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -113,6 +133,9 @@
 			children = (
 				D389C6971E8BA0040013FCED /* SigInVC.swift */,
 				D389C6951E8BA0040013FCED /* AppDelegate.swift */,
+				D31CFC071E90C2A000754738 /* ImageFeedVC.swift */,
+				D31CFC0D1E90D54B00754738 /* SettingsVC.swift */,
+				D3DAA27C1E90E3230059D6CE /* SharePostVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -129,6 +152,7 @@
 			children = (
 				D389C6A71E8BA1800013FCED /* GoogleService-Info.plist */,
 				D389C6A11E8BA0040013FCED /* Info.plist */,
+				D31CFC031E90BDAE00754738 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -263,8 +287,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D31CFC081E90C2A000754738 /* ImageFeedVC.swift in Sources */,
 				D389C6981E8BA0040013FCED /* SigInVC.swift in Sources */,
+				D31CFC0A1E90CFBF00754738 /* CreatePostView.swift in Sources */,
 				D389C6961E8BA0040013FCED /* AppDelegate.swift in Sources */,
+				D3DAA27D1E90E3230059D6CE /* SharePostVC.swift in Sources */,
+				D31CFC0C1E90D28800754738 /* SettingBtn.swift in Sources */,
+				D31850BC1E90F21E00118867 /* CircleView.swift in Sources */,
+				D31CFC0E1E90D54B00754738 /* SettingsVC.swift in Sources */,
+				D31CFC041E90BDAE00754738 /* Constants.swift in Sources */,
+				D31CFC061E90C19C00754738 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
