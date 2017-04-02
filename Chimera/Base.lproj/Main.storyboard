@@ -38,10 +38,14 @@
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lnf-WK-xpa">
                                         <rect key="frame" x="90" y="250" width="194" height="36"/>
+                                        <color key="backgroundColor" red="0.20682093500000001" green="0.59509581330000005" blue="0.85694962740000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="20"/>
                                         <state key="normal" title="Login with Facebook">
                                             <color key="titleColor" red="0.99294547799999999" green="1" blue="0.98435431659999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="fbBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IfZ-BV-w44"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNC-RO-QB1">
                                         <rect key="frame" x="0.0" y="592" width="375" height="75"/>

@@ -17,7 +17,7 @@
                         <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
-                    <view key="view" alpha="0.64999997615814209" contentMode="scaleToFill" id="E3X-rU-q9P">
+                    <view key="view" contentMode="scaleToFill" id="E3X-rU-q9P">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
@@ -52,7 +52,6 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.85882352939999995" green="0.10980392160000001" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="VT0-35-dYA" secondAttribute="trailing" id="Mou-ke-wor"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="VT0-35-dYA" secondAttribute="bottom" id="Vg2-fC-NEt"/>
