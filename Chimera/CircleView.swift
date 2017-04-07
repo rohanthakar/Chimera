@@ -11,10 +11,11 @@ import UIKit
 class CircleView: UIImageView {
 
     override func layoutSubviews() {
-        layer.cornerRadius = frame.width / 2.0
-        layer.shadowOpacity = 2.5
+        
+        layer.cornerRadius = self.frame.width / 2
+        layer.shadowOpacity = 0.8
         layer.shadowOffset = CGSize(width: 1.0, height: 1.0)
-       
+        
     }
 
 }

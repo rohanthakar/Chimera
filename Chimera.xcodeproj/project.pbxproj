@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5CAD4344790C1A0C72315DED /* Pods_Chimera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE9D7B119E26B26A2AE1AA8 /* Pods_Chimera.framework */; };
 		D31850BC1E90F21E00118867 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31850BB1E90F21E00118867 /* CircleView.swift */; };
+		D31850BE1E90FCE600118867 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31850BD1E90FCE600118867 /* PostCell.swift */; };
 		D31CFC041E90BDAE00754738 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC031E90BDAE00754738 /* Constants.swift */; };
 		D31CFC061E90C19C00754738 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC051E90C19C00754738 /* HeaderView.swift */; };
 		D31CFC081E90C2A000754738 /* ImageFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC071E90C2A000754738 /* ImageFeedVC.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		0648E9E1AD63D927F7C958AA /* Pods-Chimera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chimera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chimera/Pods-Chimera.release.xcconfig"; sourceTree = "<group>"; };
 		D31850BB1E90F21E00118867 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		D31850BD1E90FCE600118867 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		D31CFC031E90BDAE00754738 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D31CFC051E90C19C00754738 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		D31CFC071E90C2A000754738 /* ImageFeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFeedVC.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				D31CFC091E90CFBF00754738 /* CreatePostView.swift */,
 				D31CFC0B1E90D28800754738 /* SettingBtn.swift */,
 				D31850BB1E90F21E00118867 /* CircleView.swift */,
+				D31850BD1E90FCE600118867 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				D31CFC0C1E90D28800754738 /* SettingBtn.swift in Sources */,
 				D31850BC1E90F21E00118867 /* CircleView.swift in Sources */,
 				D31CFC0E1E90D54B00754738 /* SettingsVC.swift in Sources */,
+				D31850BE1E90FCE600118867 /* PostCell.swift in Sources */,
 				D31CFC041E90BDAE00754738 /* Constants.swift in Sources */,
 				D31CFC061E90C19C00754738 /* HeaderView.swift in Sources */,
 			);

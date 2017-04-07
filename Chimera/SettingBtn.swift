@@ -13,6 +13,8 @@ class SettingBtn: UIButton {
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        layer.cornerRadius = frame.width / 2
+        layer.shadowOpacity = 0
         
     }
 
