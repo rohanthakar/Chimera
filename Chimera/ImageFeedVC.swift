@@ -13,16 +13,33 @@ import Firebase
 class ImageFeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
 
     @IBOutlet weak var tableView: UITableView!
+    
+    var posts = [Post]()
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.dataSource = self
         tableView.delegate = self
         
-        DataService.ds.REF_POSTS.observe(.value, with: { (snapshot) in
+        DataService.ds.REF_POSTS.observe(.value, with: {(snapshot) in
         
-            print(snapshot.value)
+            if let snapshots = snapshot.children.allObjects as? [FIRDataSnapshot] {
+                
+                for snap in snapshots {
+                    print("SNAP: \(snap)")
+                    if let postDict = snap.value as? Dictionary<String, AnyObject> {
+                        let key = snap.key
+                        let post = Post(postKey: key, postData: postDict)
+                        self.posts.append(post)
+                    }
+                }
+                
+            }
+             self.tableView.reloadData()
+            
         })
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,12 +53,17 @@ class ImageFeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        
+        
+        
+        return posts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        return tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
+            let post = posts[indexPath.row]
+            print("ROHAN: \(post.caption)")
+            return tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
         
         //return UITableViewCell()
     }
