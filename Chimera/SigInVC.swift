@@ -71,6 +71,7 @@ class SignInVC: UIViewController {
             }else {
                 print("Rohan: Successfully Authenticated with Firebase")
                 
+                //adding fb user to FIRDB
                 if let user = user {
                     let userData = ["provider": credential.provider]
                     self.completeSignIn(id: (user.uid), userData: userData)
@@ -105,6 +106,7 @@ class SignInVC: UIViewController {
                         }else {
                             print("ROHAN: Successufully Authenticated with Firebase")
                             
+                            //Adding New User to FIRDB
                             if let user = user {
                                 let userData = ["provider": user.providerID]
 
