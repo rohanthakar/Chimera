@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5CAD4344790C1A0C72315DED /* Pods_Chimera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE9D7B119E26B26A2AE1AA8 /* Pods_Chimera.framework */; };
+		D30606DD1E98B4480082BFDB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30606DC1E98B4480082BFDB /* DataService.swift */; };
 		D31850BC1E90F21E00118867 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31850BB1E90F21E00118867 /* CircleView.swift */; };
 		D31850BE1E90FCE600118867 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31850BD1E90FCE600118867 /* PostCell.swift */; };
 		D31CFC041E90BDAE00754738 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC031E90BDAE00754738 /* Constants.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		0648E9E1AD63D927F7C958AA /* Pods-Chimera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chimera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chimera/Pods-Chimera.release.xcconfig"; sourceTree = "<group>"; };
+		D30606DC1E98B4480082BFDB /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		D31850BB1E90F21E00118867 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		D31850BD1E90FCE600118867 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		D31CFC031E90BDAE00754738 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D30606DB1E98B4350082BFDB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D30606DC1E98B4480082BFDB /* DataService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		D389C6891E8BA0040013FCED = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		D389C6941E8BA0040013FCED /* Chimera */ = {
 			isa = PBXGroup;
 			children = (
+				D30606DB1E98B4350082BFDB /* Services */,
 				D38E331C1E9004AF004E7B4F /* Chimera.entitlements */,
 				D38BFE401E8BAB8D003349F2 /* Util */,
 				D38BFE3F1E8BAB88003349F2 /* Resources */,
@@ -293,6 +304,7 @@
 				D31CFC081E90C2A000754738 /* ImageFeedVC.swift in Sources */,
 				D389C6981E8BA0040013FCED /* SigInVC.swift in Sources */,
 				D31CFC0A1E90CFBF00754738 /* CreatePostView.swift in Sources */,
+				D30606DD1E98B4480082BFDB /* DataService.swift in Sources */,
 				D389C6961E8BA0040013FCED /* AppDelegate.swift in Sources */,
 				D3DAA27D1E90E3230059D6CE /* SharePostVC.swift in Sources */,
 				D31CFC0C1E90D28800754738 /* SettingBtn.swift in Sources */,
