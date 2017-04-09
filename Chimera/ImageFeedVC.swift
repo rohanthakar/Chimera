@@ -62,10 +62,14 @@ class ImageFeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
             let post = posts[indexPath.row]
-            print("ROHAN: \(post.caption)")
-            return tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
         
-        //return UITableViewCell()
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as? PostCell {
+            cell.configureCell(post: post)
+            return cell
+        }
+        return PostCell()
+        
+        
     }
 
 }
