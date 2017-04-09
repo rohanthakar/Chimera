@@ -170,7 +170,7 @@
                                         </constraints>
                                         <state key="normal" image="add-post"/>
                                         <connections>
-                                            <segue destination="mQf-fM-SPU" kind="show" identifier="postToFeed" id="7Ti-gf-wsO"/>
+                                            <action selector="postBtnPressed:" destination="6YH-p0-BQo" eventType="touchUpInside" id="Xz4-xE-xNn"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -234,6 +234,8 @@
                     </view>
                     <connections>
                         <outlet property="addImg" destination="yQ5-C1-Gx4" id="VjR-01-qoF"/>
+                        <outlet property="captionField" destination="GXw-F2-BeB" id="cwc-KB-7DV"/>
+                        <outlet property="locationField" destination="1lx-bo-7TN" id="zVh-TU-IU4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Ja-WO-REx" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -243,7 +245,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="872.79999999999995" y="-741.67916041979015"/>
+            <point key="canvasLocation" x="825" y="-711"/>
         </scene>
         <!--Image FeedVC-->
         <scene sceneID="H15-AR-Tb1">
@@ -333,7 +335,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="375" height="508"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AHr-nn-Ti0" id="yrX-me-SYR">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="507.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="508"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JR2-pL-jp8">
@@ -547,6 +549,6 @@
         <image name="settings" width="15" height="15"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7Ti-gf-wsO"/>
+        <segue reference="Te9-Db-3ss"/>
     </inferredMetricsTieBreakers>
 </document>
