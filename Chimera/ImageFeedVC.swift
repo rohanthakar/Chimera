@@ -37,6 +37,7 @@ class ImageFeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
                 }
                 
             }
+            self.posts.reverse()
              self.tableView.reloadData()
             
         })
@@ -69,12 +70,11 @@ class ImageFeedVC: UIViewController, UITableViewDelegate, UITableViewDataSource{
             
             if let img = ImageFeedVC.imageCache.object(forKey: post.imageUrl as NSString) {
                cell.configureCell(post: post, img: img)
-                return cell
+                
             }else {
                  cell.configureCell(post: post)
-                 return cell
-            }
-            
+                             }
+            return cell
             
         }else {
              return PostCell()

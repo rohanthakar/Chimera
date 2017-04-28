@@ -80,7 +80,9 @@ class SharePostVC: UIViewController, UIImagePickerControllerDelegate, UINavigati
                     let downloadUrl = metadata?.downloadURL()?.absoluteString
                     if let url = downloadUrl {
                         self.postToFirebase(imgUrl: url)
-                        self.imageFeed.tableView.reloadData()
+                        
+                        //self.imageFeed.tableView.reloadData()
+                        
                     }
                     
                     

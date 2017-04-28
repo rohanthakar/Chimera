@@ -18,6 +18,8 @@
 		D31CFC0A1E90CFBF00754738 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC091E90CFBF00754738 /* CreatePostView.swift */; };
 		D31CFC0C1E90D28800754738 /* SettingBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC0B1E90D28800754738 /* SettingBtn.swift */; };
 		D31CFC0E1E90D54B00754738 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31CFC0D1E90D54B00754738 /* SettingsVC.swift */; };
+		D338F7331EB2C986000C1BC8 /* ChimeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338F7321EB2C986000C1BC8 /* ChimeraTests.swift */; };
+		D338F73B1EB321BB000C1BC8 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338F73A1EB321BB000C1BC8 /* SignUpVC.swift */; };
 		D389C6961E8BA0040013FCED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D389C6951E8BA0040013FCED /* AppDelegate.swift */; };
 		D389C6981E8BA0040013FCED /* SigInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D389C6971E8BA0040013FCED /* SigInVC.swift */; };
 		D389C69B1E8BA0040013FCED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D389C6991E8BA0040013FCED /* Main.storyboard */; };
@@ -26,6 +28,16 @@
 		D389C6A81E8BA1800013FCED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D389C6A71E8BA1800013FCED /* GoogleService-Info.plist */; };
 		D3DAA27D1E90E3230059D6CE /* SharePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DAA27C1E90E3230059D6CE /* SharePostVC.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D338F7351EB2C986000C1BC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D389C68A1E8BA0040013FCED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D389C6911E8BA0040013FCED;
+			remoteInfo = Chimera;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0648E9E1AD63D927F7C958AA /* Pods-Chimera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chimera.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chimera/Pods-Chimera.release.xcconfig"; sourceTree = "<group>"; };
@@ -39,6 +51,10 @@
 		D31CFC091E90CFBF00754738 /* CreatePostView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
 		D31CFC0B1E90D28800754738 /* SettingBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingBtn.swift; sourceTree = "<group>"; };
 		D31CFC0D1E90D54B00754738 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		D338F7301EB2C986000C1BC8 /* ChimeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChimeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D338F7321EB2C986000C1BC8 /* ChimeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChimeraTests.swift; sourceTree = "<group>"; };
+		D338F7341EB2C986000C1BC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D338F73A1EB321BB000C1BC8 /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		D389C6921E8BA0040013FCED /* Chimera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chimera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D389C6951E8BA0040013FCED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D389C6971E8BA0040013FCED /* SigInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigInVC.swift; sourceTree = "<group>"; };
@@ -54,6 +70,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D338F72D1EB2C986000C1BC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D389C68F1E8BA0040013FCED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,10 +113,20 @@
 			name = Services;
 			sourceTree = "<group>";
 		};
+		D338F7311EB2C986000C1BC8 /* ChimeraTests */ = {
+			isa = PBXGroup;
+			children = (
+				D338F7321EB2C986000C1BC8 /* ChimeraTests.swift */,
+				D338F7341EB2C986000C1BC8 /* Info.plist */,
+			);
+			path = ChimeraTests;
+			sourceTree = "<group>";
+		};
 		D389C6891E8BA0040013FCED = {
 			isa = PBXGroup;
 			children = (
 				D389C6941E8BA0040013FCED /* Chimera */,
+				D338F7311EB2C986000C1BC8 /* ChimeraTests */,
 				D389C6931E8BA0040013FCED /* Products */,
 				9400E5E62A3A46626E8DF73D /* Pods */,
 				51B58CDFC9C4BB53407BB7EA /* Frameworks */,
@@ -104,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				D389C6921E8BA0040013FCED /* Chimera.app */,
+				D338F7301EB2C986000C1BC8 /* ChimeraTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -153,6 +187,7 @@
 				D31CFC071E90C2A000754738 /* ImageFeedVC.swift */,
 				D31CFC0D1E90D54B00754738 /* SettingsVC.swift */,
 				D3DAA27C1E90E3230059D6CE /* SharePostVC.swift */,
+				D338F73A1EB321BB000C1BC8 /* SignUpVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -177,6 +212,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D338F72F1EB2C986000C1BC8 /* ChimeraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D338F7391EB2C986000C1BC8 /* Build configuration list for PBXNativeTarget "ChimeraTests" */;
+			buildPhases = (
+				D338F72C1EB2C986000C1BC8 /* Sources */,
+				D338F72D1EB2C986000C1BC8 /* Frameworks */,
+				D338F72E1EB2C986000C1BC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D338F7361EB2C986000C1BC8 /* PBXTargetDependency */,
+			);
+			name = ChimeraTests;
+			productName = ChimeraTests;
+			productReference = D338F7301EB2C986000C1BC8 /* ChimeraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D389C6911E8BA0040013FCED /* Chimera */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D389C6A41E8BA0040013FCED /* Build configuration list for PBXNativeTarget "Chimera" */;
@@ -203,10 +256,16 @@
 		D389C68A1E8BA0040013FCED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Reverie Works";
 				TargetAttributes = {
+					D338F72F1EB2C986000C1BC8 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = GXU9WE52K6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D389C6911E8BA0040013FCED;
+					};
 					D389C6911E8BA0040013FCED = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = GXU9WE52K6;
@@ -233,11 +292,19 @@
 			projectRoot = "";
 			targets = (
 				D389C6911E8BA0040013FCED /* Chimera */,
+				D338F72F1EB2C986000C1BC8 /* ChimeraTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D338F72E1EB2C986000C1BC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D389C6901E8BA0040013FCED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -300,10 +367,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D338F72C1EB2C986000C1BC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D338F7331EB2C986000C1BC8 /* ChimeraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D389C68E1E8BA0040013FCED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D338F73B1EB321BB000C1BC8 /* SignUpVC.swift in Sources */,
 				D31CFC081E90C2A000754738 /* ImageFeedVC.swift in Sources */,
 				D389C6981E8BA0040013FCED /* SigInVC.swift in Sources */,
 				D31CFC0A1E90CFBF00754738 /* CreatePostView.swift in Sources */,
@@ -321,6 +397,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D338F7361EB2C986000C1BC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D389C6911E8BA0040013FCED /* Chimera */;
+			targetProxy = D338F7351EB2C986000C1BC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D389C6991E8BA0040013FCED /* Main.storyboard */ = {
@@ -342,6 +426,38 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D338F7371EB2C986000C1BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = GXU9WE52K6;
+				INFOPLIST_FILE = ChimeraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverieworks.ChimeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chimera.app/Chimera";
+			};
+			name = Debug;
+		};
+		D338F7381EB2C986000C1BC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = GXU9WE52K6;
+				INFOPLIST_FILE = ChimeraTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.reverieworks.ChimeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chimera.app/Chimera";
+			};
+			name = Release;
+		};
 		D389C6A21E8BA0040013FCED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,6 +586,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D338F7391EB2C986000C1BC8 /* Build configuration list for PBXNativeTarget "ChimeraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D338F7371EB2C986000C1BC8 /* Debug */,
+				D338F7381EB2C986000C1BC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D389C68D1E8BA0040013FCED /* Build configuration list for PBXProject "Chimera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
