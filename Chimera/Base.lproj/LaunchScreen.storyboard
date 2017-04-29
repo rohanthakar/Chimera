@@ -24,9 +24,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VT0-35-dYA">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="seaface" translatesAutoresizingMaskIntoConstraints="NO" id="SDa-hp-5NJ">
+                                    <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seaface" translatesAutoresizingMaskIntoConstraints="NO" id="SDa-hp-5NJ">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chimera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEF-yj-WR1">
                                         <rect key="frame" x="88.5" y="265.5" width="199" height="136"/>
@@ -49,9 +48,13 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="SDa-hp-5NJ" firstAttribute="leading" secondItem="VT0-35-dYA" secondAttribute="leading" id="4Vx-0K-CuM"/>
+                                    <constraint firstAttribute="trailing" secondItem="SDa-hp-5NJ" secondAttribute="trailing" id="5xd-IC-DpG"/>
                                     <constraint firstItem="ptC-lG-pqm" firstAttribute="leading" secondItem="NEF-yj-WR1" secondAttribute="leading" constant="-67.5" id="7U2-xF-W1i"/>
+                                    <constraint firstItem="SDa-hp-5NJ" firstAttribute="top" secondItem="VT0-35-dYA" secondAttribute="top" id="J7m-cg-DHl"/>
                                     <constraint firstItem="ptC-lG-pqm" firstAttribute="trailing" secondItem="NEF-yj-WR1" secondAttribute="trailing" constant="79.5" id="MFn-Ii-KRj"/>
                                     <constraint firstItem="NEF-yj-WR1" firstAttribute="centerY" secondItem="VT0-35-dYA" secondAttribute="centerY" id="Qdt-wC-EhH"/>
+                                    <constraint firstAttribute="bottom" secondItem="SDa-hp-5NJ" secondAttribute="bottom" id="WTV-Yf-UOo"/>
                                     <constraint firstItem="ptC-lG-pqm" firstAttribute="centerX" secondItem="NEF-yj-WR1" secondAttribute="centerX" constant="6" id="YqH-iL-XM2"/>
                                     <constraint firstItem="ptC-lG-pqm" firstAttribute="top" secondItem="NEF-yj-WR1" secondAttribute="bottom" constant="6" id="a1r-91-zFk"/>
                                     <constraint firstItem="NEF-yj-WR1" firstAttribute="centerX" secondItem="VT0-35-dYA" secondAttribute="centerX" id="ksG-i5-NXU"/>

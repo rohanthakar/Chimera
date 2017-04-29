@@ -7,9 +7,18 @@
 //
 
 import UIKit
+import Firebase
 
 class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    
+    
+    @IBOutlet weak var emailField: UITextField!
+    
+    @IBOutlet weak var usernameField: UITextField!
+    
+    @IBOutlet weak var passwordField: UITextField!
+    
     var imagePicker: UIImagePickerController!
     var imageSelected = false
     
@@ -22,6 +31,7 @@ class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
         imagePicker.allowsEditing = true
     }
 
+    //MARK: - Image Picker Code Begins
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
         if let image = info[UIImagePickerControllerEditedImage] as? UIImage {
@@ -43,6 +53,10 @@ class SignUpVC: UIViewController, UIImagePickerControllerDelegate, UINavigationC
         
     }
    
-
+    //Image Picker Code Ends
+    
+    
+    //
+    
     
 }
